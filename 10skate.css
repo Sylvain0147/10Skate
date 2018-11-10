@@ -1,0 +1,574 @@
+  /* Polices */
+
+
+/* --------------------------------------------------------------------Commun-------------------------------------------------------*/
+
+h1 {
+	color:#F9F1F4;
+	text-align: center;
+	font-size: 4em;
+}
+
+h2 {  
+	text-align: center;
+	font-size: 8vw;
+}
+
+li {
+    list-style-type: none; 
+}
+
+.container {
+    background-color: #F6EDF0;
+}
+
+body {
+	background-color: #f8f2f4;
+	font-family: Times, serif, sans-serif;
+}
+
+
+/*-----------------------------------------------------------------------page Menu--------------------------------------------------*/
+/* Lien html non soulgné*/
+.menu-a, .menu-a:visited, .menu-a:hover, .menu-a:focus, .menu-a:active  { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+}
+	
+/*global*/
+.menu-container-fluid{
+	background-color: #500024;
+	color: #FFFFFF;
+	}
+
+/* Menu de gauche*/
+
+.superMenu{
+	background-color: #6E0031;
+	padding-top: 30px;
+	padding-left: 15px
+}
+
+.menuH2{
+	text-align: left;
+}
+
+.menu{
+	padding-top: 50px;
+	padding-bottom: 150px;
+	text-align: left;
+
+}
+
+.navigation__separator {
+    list-style: none;
+    width: 110px;
+    height: 1px;
+    background-color: rgba(248,242,244,.3);
+    margin: 13px 0;
+}
+
+/* Partie Droite */
+
+.imageJaune{
+	width:100%;
+    height:500px;
+    padding-top:20px;
+
+}
+
+.aDallas{
+ padding-top:50px;
+}
+.menu-background{
+	background-color: #500024;
+}
+
+.menu-card-text{
+	color: #500024;
+}
+
+/* Resposive */
+
+@media screen and  (max-width:992px){
+	.picture {
+		display: none;
+	}
+	
+	.navigation__separator {
+    	margin: 13px auto ;
+    }
+    .menuH2{
+	text-align: center;
+	}
+ }
+
+/*--------------------------------------------------------------------page Article----------------------------------------------------------*/
+/*----------------Nav Bar------------------------*/
+.nav-size{
+    height: 120px;
+}
+.nav-bandeau {
+    height: 6px;
+    background-color: #500024;
+}
+.nav-h1{
+    color: #500024;
+}
+.menu-burger{
+    height: 20px;
+    width : 20px;
+}
+/* Lien html non soulgné*/
+.nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
+    color:#500024; 
+    text-decoration:none; 
+}
+
+/*---------------- Fin Nav Bar------------------------*/
+.Artitcle-body{
+	background-color: #500024;
+}
+
+.aside{
+	background-position: center;
+}
+.container-Paragraphe{
+	margin-left:1em;
+	width: 40em; 
+	height: 50em;
+}
+
+
+.Article-h1{
+	color: #7b0034;
+	font-weight: bold;
+	background-position: center;
+	text-align: center;
+	font-size: 5em;
+}
+.Article-h2{
+	color: #703f55 ;
+	font-weight: bold;
+	margin-left: 10em;
+	font-size: 3em;
+	margin-left: 2em;
+	text-align: left;
+
+}
+.Article-pub{
+	background-position: center;
+	width: 50em;
+}
+.image-pub{
+	margin-left: 2em;
+}
+.Paragraphe{
+	color: #703f55 ;
+	font-size: 1em;
+	
+	
+}
+.Paragraphe-article{
+	color: #703f55;
+}
+
+.Paragraphe1{
+	text-align: center;
+	color: #703f55;
+	margin-left: 1em;	
+}
+.Paragraphe2{
+	text-align: center;
+	color: #703f55;
+	font-size: 2em;
+}
+.Suite-artcicle{
+	background-position: center;
+
+}
+.Suite-artcicle1{
+	background-position: center;
+	margin-right: 25em;
+}
+
+
+.title{
+	bottom: 1em;
+	text-align: center;
+	background-color: #F9F1F4;
+	background-position: center;}
+
+.container1{
+	text-align: center;
+	margin-top: 10%;}
+
+.pub{
+	position: sticky;
+	float: right;
+	color: red;
+	margin-right: 0em;
+	margin-top: 3em;
+	font-size: 1vw;}
+
+
+@media screen and (max-width: 990px) {
+	.pub {
+        display: none;
+}
+}
+
+	
+/*--------------------------------------------------------------------page Index----------------------------------------------------------*/
+
+hr {
+	margin: 0;
+}
+.first-container {
+	color: #7B3C58;
+	margin-top: 4%;
+}
+
+#grandsFormats {
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 4%;
+	font-weight: bold;
+	font-size: 1.7vw;
+}
+#textGrandFormat {
+	position: absolute;
+	font-size: 3vw;
+	font-weight: bold;
+	margin-top: 28%;
+	margin-left: 8%;
+	width: 40%;
+}
+.formatPhoto {
+
+}
+.petiteImage {
+	width: 80%;
+	height: 80%;
+}
+.index-container {
+	color: #7B3C58;
+	padding-top: 3%;
+	padding-bottom: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+@media screen and (max-width: 631px) {
+	.index-first {
+		order: 1;
+		text-align: center;
+	}
+	.index-second {
+		order: 2;
+	} 
+}
+
+.index-container-fluid:hover {
+	background-color: #F6EDF0;
+}
+.index-fixed-top {
+    background-color: #f8f2f4;
+}
+.index-nav-size {
+	height: 22%;
+}
+.index-p {
+	color: #86707a;
+	font-size: 1.9vw;
+	font-weight: bold;
+}
+
+.index-enveloppe {
+    width: 30px;
+    height: 20px;
+}
+.index-h1, .index-h2, .index-h3{
+	color: #6e0031;
+	font-weight: bold;
+}
+.index-h2 {
+	font-size: 2.8vw;
+}
+.cardDossier {
+	color: #7B3C58;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+.index-cite {
+	color: #86707a;
+	font-style: normal;
+	font-size: 1.9 vw;
+}
+.couleurCite {
+	color: #b41462;
+}
+/* rien a modifier*/
+
+
+.partenaires {
+	background-color: #720034;
+	padding-top: 1%;
+}
+.partOrange {
+	color: orange;
+}
+.partCards {
+	margin-top: 0;
+}
+.partTitre {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.dossiers {
+	background-color: #720034;
+	padding-top: 1%;
+}
+
+.zoom-image img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.zoom-image:hover img{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-filter: grayscale(1);
+}
+.zoom-premier:hover img{
+	margin-bottom: 3%;
+}
+
+#grandeImage {
+   margin-bottom: -13%;
+}
+
+.debutPage {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.trait {
+	color: #FFFFFF;
+	height: 0.3em;
+}
+
+
+.navigation {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.index-enveloppe {
+	height: 2em;
+	width: 2em;
+}
+.titrePrincipal {
+	width: 60%;
+}
+.buttonIndex {
+	border: solid 5px #720034;
+	background: #F6EDF0;
+	border-radius: 0%;
+	padding: 1.5%;
+	color: #720034;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.buttonIndex:hover {
+	background-color: #500024;
+	color: #FFFFFF;
+}
+.fondVideo {
+	position: absolute;
+	width: 98%;
+}
+.container-video {
+
+}
+.index-video {
+	margin-bottom: 10%;
+	margin-top: 8%;
+	opacity: 0.3;
+	width: 60%;
+	height: 50%;
+}
+.index-video:hover {
+	opacity: 1;
+}
+
+
+/*--------------------------------------------------------------------page NewsLetter----------------------------------------------------------*/
+.newsletter-body {background-color: #710033;
+	   			  color: #710033;
+
+}
+
+.nav-bandeau-newsletter {background-color: #710033;
+					     color: #710033;}
+
+.newsletter-h1 {font-family: tahoma;
+	 			color: #FFFFFF;
+}
+.nav-h1-newsletter, .nav-h1-newsletter:visited, .nav-h1-newsletter:hover, .nav-h1-newsletter:focus, .nav-h1-newsletter:active  { 
+	color:#ffffff; 
+	text-decoration:none; 
+}
+
+.newsletter-li {list-style: none;
+
+}
+
+.newsletter-menu {background-color: #710033;
+				  color: #710033;
+}
+.nav-a-newsletter, .nav-a-newsletter:visited, .nav-a-newsletter:hover, .nav-a-newsletter:focus, .nav-a-newsletter:active  { 
+	color:#ffffff; 
+	text-decoration:none; 
+}
+.newsletter-container {background-color: #710033;
+	              	   color: #710033;
+}
+
+.newsletter-row {background-color: #710033;
+	  			 justify-content: flex-start;
+	  			 
+}
+
+.newsletter-pub {background-color: #710033;
+				 color: #710033;
+				 padding-left: 8em;
+				 padding-top: 4em;
+				 padding-bottom: 4em;
+}
+
+.titre-newsletter {color: #FFFFFF;
+				   font-size: 5vw;
+				   justify-content: center;
+				   padding-bottom: em;
+				   
+				   
+}
+
+
+.newsletter-row {justify-content: center;
+				 }
+
+
+.nav-h1-newsletter{
+	color: #FFFFFF;
+}
+
+/* rien a modifier*/
+
+
+.nav-item h1 {font-family: tahoma;
+	          color: #FFFFFF;
+}
+
+.nav-link {font-family: tahoma;
+	       color: #FFFFFF;
+}
+
+
+
+.newsletter-card-body {background-color: #540028;
+	   				   color: #FFFFFF;
+}
+
+.form-group {background-color: #540028;
+
+}
+
+.form-control {background-color: #540028;
+			   
+}
+
+button {;
+		}
+
+
+.footer-main {align-items: center;
+			 padding-top: 7em;
+			 padding-bottom: 2em;
+			 background-color: #710033;
+	         font-color: #FFFFFF;
+	         font-size: 1em;
+	     }
+
+.newsletter-footer {justify-content: space-around;
+					color: #FFFFFF;}
+
+.footer-link-title{color: #FFFFFF;}
+
+.footer-link-title:hover {color: #FFFFFF;}
+
+.footer-link {color: #FFFFFF;}
+
+.footer-link:hover {color: #FFFFFF;}
+
+.fa-facebook {color: #FFFFFF;}
+
+.fa-facebook:hover {color: #FFFFFF;}
+
+.fa-twitter {color: #FFFFFF;}
+
+.fa-twitter:hover {color: #FFFFFF;}
+
+.fa-youtube {color: #FFFFFF;}
+
+.fa-youtube:hover {color: #FFFFFF;}
+
+.fa-instagram {color: #FFFFFF;}
+
+.fa-instagram:hover {color: #FFFFFF;}
+
+.zoom a {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.zoom :hover a{
+	-webkit-transform: scale(3);
+	transform: scale(3);
+}
+
+
+/*----------------Nav Bar------------------------*/
+.nav-size{
+	height: 120px;
+}
+.nav-bandeau {
+	height: 6px;
+	background-color: #500024;
+}
+.nav-h1{
+	color: #500024;
+}
+.menu-burger{
+	height: 20px;
+	width : 20px;
+}
+/* Lien html non soulgné*/
+.nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
+	color:#500024; 
+	text-decoration:none; 
+}
+
+.loupe{
+	height: 40px;
+	width : 40px;
+}
+
+.index-fixed-top {
+	background-color: #F6EDF0;
+	margin-top: 6px;
+}
